@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 100vh;
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.button {
+  border-radius: 15px;
+  background-color: white;
+  padding: 5px 10px;
+  border: 1px solid rgb(162, 162, 162);
+  cursor: pointer;
+  &-active {
+    border: 2px solid rgb(65, 187, 236);
+  }
+}
